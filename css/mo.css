@@ -1,0 +1,148 @@
+:root{
+    --bcolor: black ;
+    --bcolor2: yellow ;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.list {
+    width:98% ;
+    background-color:var(--bcolor2) ;
+    margin:10px auto;
+    border-radius: 18px;
+}
+.list .contner {
+
+}
+.list  .contner  .con {
+    display: flex;
+    border-radius: 18px  0 0 18px ;
+}
+.list  .contner  .con .noo{
+    width: 66%;
+    background-color: var(--bcolor);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: inherit;
+    
+
+}
+.list  .contner  .con h1 {
+    color: rgb(205, 202, 50);
+    margin: 0;
+}
+.list  .contner  .con ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+}
+.list  .contner  .con .span{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.list  .contner  .con .span >i {
+    margin-right: 20px;
+}
+
+.list  .contner  .con .span > i+a {
+    background-color: var(--bcolor);
+    color: white;
+    text-align: center;
+    width: 50px;
+    border: 6px black solid;
+    border-radius: 15px;
+}
+
+.bo {
+    width:98% ;
+    background-color:var(--bcolor2) ;
+    margin:10px auto;
+    border-radius: 18px;
+}
+.bo .contner {
+    display: flex;
+    position: relative;
+}
+.bo .contner .room {
+    width: 66%;
+    height:491px;
+    background-color: var(--bcolor);
+    color: white;
+    border-radius: 18px  0 0 18px 
+}
+.bo .contner .room .tixtt{
+    width: 55%;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: inherit;
+}
+.bo .contner .roomm {
+    width: 33%;
+    
+}
+.bo .contner .roomm > img {
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    animation-name: moo;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: matrix(45dge);
+
+}
+@keyframes moo{
+    0%{
+        top : 10% ;
+        
+
+    }
+    100%{
+        top : 17%
+    }
+
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 10px 0 0 10px;
+    top:42% ;
+    right:0;
+}
+.link > i{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+
+    
+
+.gradient h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    }
+
+    .gradient p {
+    color: #eee;
+    }
